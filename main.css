@@ -1,0 +1,214 @@
+body{
+    background-color: rgb(245, 245, 245);
+}
+/*----BODY DIV----*/
+
+.o-body-container{
+    display: flex;
+    padding: 1rem;
+
+}
+
+/*----INFO CONTAINER (BODY CONTAINER)----*/
+
+.o-info-container{
+    width: 16%;
+    margin: 0rem 0rem 0rem 0rem;
+    background-color: white;
+
+    -webkit-box-shadow: 0px 0px 26px 9px rgba(184,182,184,1);
+    -moz-box-shadow: 0px 0px 26px 9px rgba(184,182,184,1);
+    box-shadow: 0px 0px 26px 9px rgba(184,182,184,1);
+    
+
+}
+
+/*----NAME CONTAINER----*/
+.o-name-container{
+
+    padding: 1rem;
+    
+
+}
+
+/*--IMG PROFILE CONTAINER--(NAME CONTAINER)----*/
+.o-img-profile-container{
+  
+    border-bottom: 1px solid grey;
+
+
+}
+
+/*--IMG PROFILE--(IMG PROFILE CONTAINER)----*/
+
+.o-img-profile{
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+/*--NAME TITLE CONTAINER--(NAME CONTAINER)----*/
+
+.o-name-title-container{
+    text-align: center;
+
+}
+
+/*--CONTACT CONTAINER--(NAME CONTAINER)----*/
+
+.o-contact-container{
+
+    border-top: 1px solid grey;
+}
+
+/*--NETWORK CONTAINER--(CONTACT CONTAINER)----*/
+
+.o-networks-container{
+
+}
+
+/*--CONTACT ME CONTAINER--(CONTACT CONTAINER)----*/
+
+.o-contact-me-container{
+
+}
+
+/*----PORTFOLIO CONTAINER (BODY CONTAINER)----*/
+
+.o-portfolio-container{
+    margin: 0rem 0rem 0rem 1rem;
+    width: 94%;
+
+    
+}
+
+/*----ABOUT SKILLS CONTAINER (PORTFOLIO CONTAINER)----*/
+
+.o-about-skills-container{
+    display: flex;
+    margin: 0rem 0rem 1rem 0rem;
+    background-color: white;
+
+    -webkit-box-shadow: 0px 0px 26px 9px rgba(184,182,184,1);
+    -moz-box-shadow: 0px 0px 26px 9px rgba(184,182,184,1);
+    box-shadow: 0px 0px 26px 9px rgba(184,182,184,1);
+}
+
+/*----ABOUT ME CONTAINER (ABOUT SKILLS)----*/
+
+.o-about-me-container{
+    padding: 1rem;
+    width: 50%;
+
+}
+
+/*----SKILLS CONTAINER (ABOUT SKILLS)----*/
+
+.o-skills-container{
+    padding: 1rem;
+    width: 50%;
+    border-left: 1px solid black;
+    background-color: seagreen;
+   
+}
+
+/*----SKILLS ALL (SKILLS CONTAINER)----*/
+
+.o-skills-all{
+    display: flex;
+
+}
+
+/*----SKILL CONTAINER 1 (SKILLS ALL)----*/
+
+.o-skill-container-1{
+    background-color: springgreen;
+    width: 50%;
+
+    
+}
+
+/*----SKILL CONTAINER 2 (SKILLS ALL)----*/
+
+.o-skill-container-2{
+    background-color: coral;
+    width: 50%;
+   
+
+}
+
+/*---- TITLE SKILL CONTAINER (BAR 1-2)----*/
+
+
+.o-tittle-skill-container{
+
+}
+
+/*---- BAR 1-2 (SKILL CONTAINER 1-2)----*/
+
+.o-bar{
+    margin: 0.3rem;
+    color: #ffffff;
+    background:rgb(245, 245, 245);
+    border-radius: 0.4rem;
+}
+
+/*---- BAR PROGRESS (BAR 1-2)----*/
+
+.o-bar-progress{
+    text-align: center;
+    background: #0073F6;
+    border-radius: 0.4rem;
+    
+}
+
+
+/*----PROJECTS TITLE CONTAINER (PORTFOLIO CONTAINER)----*/
+
+.o-projects-title-container{
+    text-align: center;
+    margin: 0rem 0rem 1rem 0rem;
+    background-color:  white;
+
+    -webkit-box-shadow: 0px 0px 26px 9px rgba(184,182,184,1);
+    -moz-box-shadow: 0px 0px 26px 9px rgba(184,182,184,1);
+    box-shadow: 0px 0px 26px 9px rgba(184,182,184,1);
+
+
+}
+
+/*----PROJECTS CONTAINER (PORTFOLIO CONTAINER)----*/
+
+.o-projects-container{
+     display: flex;
+     background-color: white;
+
+     -webkit-box-shadow: 0px 0px 26px 9px rgba(184,182,184,1);
+     -moz-box-shadow: 0px 0px 26px 9px rgba(184,182,184,1);
+     box-shadow: 0px 0px 26px 9px rgba(184,182,184,1);
+
+}
+
+/*----PROJECTS DESCRIPTION CONTAINER (PROJECTS CONTAINER)----*/
+
+.o-project-description-container{
+    padding: 1rem;
+    width: 75%;
+
+}
+
+/*----PROJECTS IMG SLIDER CONTAINER (PROJECTS CONTAINER)----*/
+
+.o-projects-img-slider-container{
+    width: 25%;
+    padding: 1rem;
+    
+
+}
+
+.o-img-project{
+    width: 100%;
+    height: auto;
+}
+
+
