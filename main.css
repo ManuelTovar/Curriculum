@@ -6,13 +6,12 @@ body{
 .o-body-container{
     display: flex;
     padding: 1rem;
-
 }
 
 /*----INFO CONTAINER (BODY CONTAINER)----*/
 
 .o-info-container{
-    width: 16%;
+    width: 20rem;
     margin: 0rem 0rem 0rem 0rem;
     background-color: white;
 
@@ -25,10 +24,7 @@ body{
 
 /*----NAME CONTAINER----*/
 .o-name-container{
-
     padding: 1rem;
-    
-
 }
 
 /*--IMG PROFILE CONTAINER--(NAME CONTAINER)----*/
@@ -61,11 +57,35 @@ body{
     border-top: 1px solid grey;
 }
 
-/*--NETWORK CONTAINER--(CONTACT CONTAINER)----*/
+/*--TITLE NETWORK CONTAINER--(CONTACT CONTAINER)----*/
 
-.o-networks-container{
+.o-title-networks-container{
 
 }
+
+/*--IMG NETWORK CONTAINER--(CONTACT CONTAINER)----*/
+
+.o-img-networks-container{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+/*--ICONS NETWORK CONTAINER--(IMG NETWORK CONTAINER)----*/
+
+.o-icons-network {
+
+}
+
+svg{
+    fill: grey;
+}
+
+svg:hover{
+    fill: #0073F6;
+}
+
 
 /*--CONTACT ME CONTAINER--(CONTACT CONTAINER)----*/
 
@@ -73,12 +93,14 @@ body{
 
 }
 
+
+/*----------------------------------------------------2 COLUMN----------------------------------------------------------*/
+
 /*----PORTFOLIO CONTAINER (BODY CONTAINER)----*/
 
 .o-portfolio-container{
     margin: 0rem 0rem 0rem 1rem;
-    width: 94%;
-
+    width: 96rem;
     
 }
 
@@ -86,7 +108,6 @@ body{
 
 .o-about-skills-container{
     display: flex;
-    margin: 0rem 0rem 1rem 0rem;
     background-color: white;
 
     -webkit-box-shadow: 0px 0px 26px 9px rgba(184,182,184,1);
@@ -108,7 +129,6 @@ body{
     padding: 1rem;
     width: 50%;
     border-left: 1px solid black;
-    background-color: seagreen;
    
 }
 
@@ -116,13 +136,13 @@ body{
 
 .o-skills-all{
     display: flex;
+  
 
 }
 
 /*----SKILL CONTAINER 1 (SKILLS ALL)----*/
 
 .o-skill-container-1{
-    background-color: springgreen;
     width: 50%;
 
     
@@ -131,7 +151,6 @@ body{
 /*----SKILL CONTAINER 2 (SKILLS ALL)----*/
 
 .o-skill-container-2{
-    background-color: coral;
     width: 50%;
    
 
@@ -149,7 +168,7 @@ body{
 .o-bar{
     margin: 0.3rem;
     color: #ffffff;
-    background:rgb(245, 245, 245);
+    background:rgb(219, 219, 219);
     border-radius: 0.4rem;
 }
 
@@ -167,9 +186,8 @@ body{
 
 .o-projects-title-container{
     text-align: center;
-    margin: 0rem 0rem 1rem 0rem;
     background-color:  white;
-
+    
     -webkit-box-shadow: 0px 0px 26px 9px rgba(184,182,184,1);
     -moz-box-shadow: 0px 0px 26px 9px rgba(184,182,184,1);
     box-shadow: 0px 0px 26px 9px rgba(184,182,184,1);
@@ -182,7 +200,7 @@ body{
 .o-projects-container{
      display: flex;
      background-color: white;
-
+     margin-top: 1rem;
      -webkit-box-shadow: 0px 0px 26px 9px rgba(184,182,184,1);
      -moz-box-shadow: 0px 0px 26px 9px rgba(184,182,184,1);
      box-shadow: 0px 0px 26px 9px rgba(184,182,184,1);
