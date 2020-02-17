@@ -1,6 +1,20 @@
 body{
     background-color: rgb(245, 245, 245);
+    text-align: justify;
+
 }
+
+p{
+    font-family: 'Open Sans';
+            font-style: Bold;
+            font-size: 17px;
+            color: black;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 /*----BODY DIV----*/
 
 .o-body-container{
@@ -18,7 +32,6 @@ body{
     -webkit-box-shadow: 0px 0px 26px 9px rgba(184,182,184,1);
     -moz-box-shadow: 0px 0px 26px 9px rgba(184,182,184,1);
     box-shadow: 0px 0px 26px 9px rgba(184,182,184,1);
-    
 
 }
 
@@ -60,6 +73,10 @@ body{
 /*--TITLE NETWORK CONTAINER--(CONTACT CONTAINER)----*/
 
 .o-title-networks-container{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    font-size: 20px;
 
 }
 
@@ -75,11 +92,12 @@ body{
 /*--ICONS NETWORK CONTAINER--(IMG NETWORK CONTAINER)----*/
 
 .o-icons-network {
-
+    width: 32px;
+    height:32px;
 }
 
 svg{
-    fill: grey;
+    fill: rgb(184,182,184,1);
 }
 
 svg:hover{
@@ -90,7 +108,27 @@ svg:hover{
 /*--CONTACT ME CONTAINER--(CONTACT CONTAINER)----*/
 
 .o-contact-me-container{
+    text-align: left;
+  
+}
 
+/*-- ICON CONTACT CONTAINER--(CONTACT ME CONTAINER)----*/
+
+.o-icon-contact-container{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    font-size: 20px ;
+    
+
+}
+
+.o-icon{
+    width: 32px;
+    height: 32px;
+    margin-right: 1rem;
+  
+    
 }
 
 
@@ -123,6 +161,17 @@ svg:hover{
 
 }
 
+/*----ICON ABOUT ME (ABOUT ME CONTAINER)----*/
+
+.o-icon-about-me{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+
+}
+
+
+
 /*----SKILLS CONTAINER (ABOUT SKILLS)----*/
 
 .o-skills-container{
@@ -132,19 +181,26 @@ svg:hover{
    
 }
 
+/*----ICON SKILL (SKILLS CONTAINER)----*/
+
+.o-icon-skill{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+
+}
+
 /*----SKILLS ALL (SKILLS CONTAINER)----*/
 
 .o-skills-all{
     display: flex;
   
-
 }
 
 /*----SKILL CONTAINER 1 (SKILLS ALL)----*/
 
 .o-skill-container-1{
     width: 50%;
-
     
 }
 
@@ -152,16 +208,17 @@ svg:hover{
 
 .o-skill-container-2{
     width: 50%;
-   
 
 }
 
 /*---- TITLE SKILL CONTAINER (BAR 1-2)----*/
 
-
 .o-tittle-skill-container{
+    font-family: 'Open Sans';
+    
 
 }
+
 
 /*---- BAR 1-2 (SKILL CONTAINER 1-2)----*/
 
@@ -181,17 +238,20 @@ svg:hover{
     
 }
 
+.o-bar-progress p{
+color: white;
+    
+}
 
 /*----PROJECTS TITLE CONTAINER (PORTFOLIO CONTAINER)----*/
 
 .o-projects-title-container{
     text-align: center;
-    background-color:  white;
-    
+    color: white;
+    background-color: #0073F6 ;
     -webkit-box-shadow: 0px 0px 26px 9px rgba(184,182,184,1);
     -moz-box-shadow: 0px 0px 26px 9px rgba(184,182,184,1);
     box-shadow: 0px 0px 26px 9px rgba(184,182,184,1);
-
 
 }
 
@@ -210,23 +270,84 @@ svg:hover{
 /*----PROJECTS DESCRIPTION CONTAINER (PROJECTS CONTAINER)----*/
 
 .o-project-description-container{
-    padding: 1rem;
+    padding: 2.5rem;
     width: 75%;
 
+}
+
+/*----ICON PROJECTS (PROJECTS DESCRIPTION CONTAINER)----*/
+
+
+.o-icon-project{
+    display: flex;
+    align-items: center;
+}
+
+.o-icon-project h2{
+    border-bottom: 2px solid #0073F6;
+    font-size: 25px;
 }
 
 /*----PROJECTS IMG SLIDER CONTAINER (PROJECTS CONTAINER)----*/
 
 .o-projects-img-slider-container{
     width: 25%;
-    padding: 1rem;
-    
+    overflow: hidden;
 
 }
 
-.o-img-project{
+@-webkit-keyframes slide_animation{
+    0%  {left: 0%;}
+    10% {left: 0%;}
+    20% {left: 0%;}
+    30% {left: 0%;}
+    40% {left: 0%;}
+    50% {left: 0%;}
+    60% {left: 100%;}
+    70% {left: 100%;}
+    80% {left: 100%;}
+    90% {left: 100%;}
+    100% {left: 100%;}
+}
+
+/*----SLIDES IMG (PROJECTS IMG SLIDER CONTAINER)----*/
+
+.o-slides-img{
+    
+    display: flex;
     width: 100%;
     height: auto;
+    margin: 0% 0% 0% -100%;
+    position: relative;
+    animation-name:slide_animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    justify-content: space-between;
+    
 }
+
+/*---- IMG (PROJECTS IMG SLIDER CONTAINER)----*/
+
+.o-img{
+
+    width: 100%;
+    height: auto;
+    position: relative;
+    float: left;
+    
+}
+
+.img{
+    width: 200%;
+    height: auto;
+
+}
+
+
+
+
+
 
 
