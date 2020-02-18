@@ -5,6 +5,7 @@ body{
 }
 
 p{
+    margin: 0.4rem;
     font-family: 'Open Sans';
             font-style: Bold;
             font-size: 17px;
@@ -12,7 +13,10 @@ p{
 }
 
 h1, h2, h3, h4{
-    font-family: 'Source Sans Pro', sans-serif;
+
+    font-family: 'Dosis', sans-serif;
+    margin: 1rem;
+
 }
 
 /*----BODY DIV----*/
@@ -20,6 +24,7 @@ h1, h2, h3, h4{
 .o-body-container{
     display: flex;
     padding: 1rem;
+    justify-content: center;
 }
 
 /*----INFO CONTAINER (BODY CONTAINER)----*/
@@ -126,11 +131,9 @@ svg:hover{
 .o-icon{
     width: 32px;
     height: 32px;
-    margin-right: 1rem;
+    margin-right: 0.1rem;
   
-    
 }
-
 
 /*----------------------------------------------------2 COLUMN----------------------------------------------------------*/
 
@@ -146,7 +149,6 @@ svg:hover{
 
 .o-about-skills-container{
     display: flex;
-    background-color: white;
 
     -webkit-box-shadow: 0px 0px 26px 9px rgba(184,182,184,1);
     -moz-box-shadow: 0px 0px 26px 9px rgba(184,182,184,1);
@@ -178,7 +180,7 @@ svg:hover{
     padding: 1rem;
     width: 50%;
     border-left: 1px solid black;
-   
+    
 }
 
 /*----ICON SKILL (SKILLS CONTAINER)----*/
@@ -201,7 +203,8 @@ svg:hover{
 
 .o-skill-container-1{
     width: 50%;
-    
+    margin-right: 1rem;
+
 }
 
 /*----SKILL CONTAINER 2 (SKILLS ALL)----*/
@@ -216,9 +219,7 @@ svg:hover{
 .o-tittle-skill-container{
     font-family: 'Open Sans';
     
-
 }
-
 
 /*---- BAR 1-2 (SKILL CONTAINER 1-2)----*/
 
@@ -270,7 +271,7 @@ color: white;
 /*----PROJECTS DESCRIPTION CONTAINER (PROJECTS CONTAINER)----*/
 
 .o-project-description-container{
-    padding: 2.5rem;
+    padding: 1rem;
     width: 75%;
 
 }
